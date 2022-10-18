@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathGo</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href=''>mathgo.</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#fact">FACT</a></li>
+                    <li><a href="#webinar">WEBINAR</a></li>
+                    <li><a href="" class="tbl-biru">SIGN UP</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <!-- untuk home -->
+        <section id="home">
+            <img src="https://img.freepik.com/free-vector/business-team-putting-together-jigsaw-puzzle-isolated-flat-vector-illustration-cartoon-partners-working-connection-teamwork-partnership-cooperation-concept_74855-9814.jpg?size=626&ext=jpg&ga=GA1.2.19958931.1666084987">
+            <div class="kolom">
+                <p class="deskripsi">The Queen Of Science</p>
+                <h2>Matematika</h2>
+                <p>Memiliki anggapan sebagai sesuatu yang menakutkan, menjadikan matematika sangat dihindari sebagian besar orang. Tapi, ternyata matematika tidak semenakutkan apa yang sudah dikatakan kebanyakan orang. Mau tahu kenapa matematika itu menyenangkan? Yuk klik tombol di bawah ini!</p>
+                <p><a href="templates/math.html" class="tbl-pink">Apa itu Matematika?</a></p>
+            </div>
+        </section>
+
+        <!--untuk fact-->
+        <section id="fact">
+            <div class="kolom">
+                <p class="deskripsi">Fun Fact About Mathematics</p>
+                        <h2>FunMath!</h2>
+                            <p>Halo semua! dibalik matematika yang dikenal menyeramkan, ternyata matematika memiliki banyak fakta menarik di dalamnya.</p>
+                            <p>Mau tahu? Yuk klik tombol di bawah</p>
+                            <p><a href="templates/fact.html" class="tbl-biru">Fun Fact</a></p>
+            </div>
+            <img src="https://img.freepik.com/free-vector/poster-design-with-word-math-time-with-numbers-background_1308-42222.jpg?size=626&ext=jpg&ga=GA1.2.19958931.1666084987">
+        </section>
+
+        <!-- untuk webinar -->
+        <section id="webinar">
+            <div class="tengah">
+                <div class="kolom">
+                    <p class="deskripsi">Webinar Information</p>
+                       <center><h2>WebinarMath</h2></center>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, fugit.</p>
+                </div>
+
+                <div class="webinar-list">
+                    <div class="pamflet">
+                        <img src="https://img.freepik.com/free-vector/gradient-a5-flyer-template-with-photo_23-2148954029.jpg?size=338&ext=jpg&ga=GA1.2.19958931.1666084987">
+                            <p>Business</p>
+                            <p><a href="https://forms.gle/NoyWYN78D5xiiHo97" class="tbl-biru">Daftar Disini</a></p>
+                    </div>
+                    <div class="pamflet">
+                        <img src="https://img.freepik.com/free-psd/zero-discrimination-day-flyer-template_23-2148883336.jpg?size=338&ext=jpg&ga=GA1.2.19958931.1666084987">
+                            <p>Humanity</p>
+                            <p><a href="https://forms.gle/pTLVrSReLq5qTxQDA" class="tbl-biru">Daftar Disini</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+<!-- INI CSS -->
+<style>
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: #364f6b;
+}
+
+.menu {
+    float: right;
+}
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+    border-bottom: 1px solid;
+    border-color: #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #364f6b;
+    width: 30%;
+    line-height: 200%;
+}
+
+a.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: red;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: red;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #3f72af;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.webinar-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pamflet{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.pamflet img {
+    width: 80%;
+}
+
+.pamflet p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+</style>
